@@ -1,8 +1,10 @@
-// Set the 'NODE_ENV' variable
+//Set the 'NODE_ENV' variable
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 // Load the module dependencies
 const configureMongoose = require('./config/mongoose');
 const configureExpress = require('./config/express');
+
 // Create a new Mongoose connection instance
 const db = configureMongoose();
 
@@ -11,6 +13,7 @@ const app = configureExpress();
 
 // Use the Express application instance to listen to the '3000' port
 app.listen(3000);
+
 // Log the server status to the console
 console.log('Server running at http://localhost:3000/');
 
