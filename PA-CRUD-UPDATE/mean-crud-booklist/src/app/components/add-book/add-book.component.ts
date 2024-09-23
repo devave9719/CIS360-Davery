@@ -25,7 +25,6 @@ export class AddBookComponent implements OnInit {
       publisher: ['']
     })
   }
-  
   ngOnInit(): void { }
   onSubmit(): any {
     this.crudService.AddBook(this.bookForm.value)
