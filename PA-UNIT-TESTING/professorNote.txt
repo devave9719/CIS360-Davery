@@ -1,0 +1,4 @@
+Hey just wanted to say I had a hard time running this application 
+but I was able to get the code in so I won't have a screenshot of the output 
+until I can get this running I have to make a few changes but I should 
+have it up this weekend if not then I get points off for not being able to figure it out.
